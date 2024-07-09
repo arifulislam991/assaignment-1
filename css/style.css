@@ -207,3 +207,20 @@ p{
     width: 852px;
     height: 52px;
 }
+.video-contan{
+    margin-top: 48px;
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.video{
+    border-radius: 16px;
+    margin: 32px 32px;
+    width: 1076px;
+    height: 550px;
+}
+.video-border{
+    border-radius: 16px;
+}
