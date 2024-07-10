@@ -94,12 +94,12 @@ p{
 .banner-btn button{
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    width: 210px;
-    height: 68px;
+    width: 200px;
+    height: 60px;
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
-    padding: 21px 24px 21px 24px;
+    padding: 15px 18px 15px 18px;
 }
 .banner-btn a{
     color:rgb(255, 255, 255) ;
@@ -171,12 +171,20 @@ p{
     font-weight: 700;
     margin-bottom: 16px;
 }
+.text-info-title{
+    height: 65px;
+    height: 390px;
+    font-size: 22px;
+    padding-bottom:16px ;
+}
 .text-info p{
     width: 468px;
     height: 52px;
+    margin-top: 16px;
     margin-bottom: 32px;
 
 }
+
 .devoloper-info{
     display: flex;
     justify-content: space-between;
