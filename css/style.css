@@ -5,6 +5,9 @@
     font-family: "Azeret Mono"
     
 }
+.h1{
+    color: rgb(13, 19, 33);
+}
 a{
     text-decoration: none;
 }
@@ -223,4 +226,166 @@ p{
 }
 .video-border{
     border-radius: 16px;
+}
+/* = = = = = = = card section style = = = = = = = */
+.card-section{
+    margin: auto;
+    width: 1140px;
+    height: 460px;
+    margin-top: 146px;
+    
+}
+.card-title{
+    text-align: center;
+    margin: auto;
+    width: 946px;
+    height: 113px;
+}
+.card-title h1{
+    font-size: 32px;
+    font-weight: 800;
+    width: 852px;
+    height: 37px;
+    margin-bottom:24px ;
+}
+.card-title p{
+    width: 852px;
+    height: 52px;
+}
+.card-item{
+    display: flex;
+    gap: 24px;
+    padding-top:48px ;
+    padding-bottom: 111px;
+    width: 1140px;
+    height: 299px;
+}
+.card{
+    padding: 40px;
+    width: 364px;
+    height: 250px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-3{
+    background: rgba(255, 223, 0, 0.05);
+}
+.card img{
+    width: 39px;
+    height: 45px;
+    margin-bottom: 24px;
+}
+.card h1{
+    height: 36px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card p{
+    margin-bottom: 24px;
+}
+.card span{
+    
+    text-decoration: underline;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* == = = = = support section style = = = = = = */
+.support-section{
+    
+    margin:80px auto;
+    width: 1140px;
+    height: 314px;
+}
+.support-container{
+    
+    border-radius: 16px;
+    width: 1140px;
+    height: 314px;
+    background: url(../assets/handshake.jpg);
+    background-size:100% ;
+    background-repeat:no-repeat ;
+}
+.support-item{
+    padding: 64px 48px;
+    width: 1044px;
+    height: 186px;
+}
+.support-title{
+    text-align: center;
+    margin: auto;
+    width: 730px;
+    height: 104px;
+}
+.support-title h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+.support-title p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 32px;
+}
+.support-sanding{
+    width: 684px;
+    height: 58px;
+    margin: auto;
+}
+input[type="text"]{
+    background: rgb(255, 255, 255);
+    width: 500px;
+    height: 19px;
+    /* width: 548px;
+    height: 57px; */
+    border-radius:8px ;
+    padding: 19px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 58px;
+    border-radius: 8px;
+    padding: 17px 20px;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+/* == - = - = footer section style = - = - = */
+footer{
+    margin: auto;
+    padding: 32px 150px;
+    width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+/* .footer-continer{
+    width: 1140px;
+    height: 36px;
+} */
+.footer-item{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left:150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 36px;
+}
+.footer-item ul{
+    display: flex;
+    gap: 24px;
+}
+.footer-item h3{
+    height: 24px;
+    font-size: 20px;
+    font-weight: 600;
 }
